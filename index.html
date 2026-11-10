@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPTEL Online Certification - Himanshu Golya</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      min-height: 100vh;
+      background-color: #ffffff;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 14px;
+      padding-bottom: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .certificate-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .certificate-img {
+      width: clamp(719px, calc(719px + (100vw - 1024px) * 1.1286), 1188.5px);
+      max-width: 1188.5px;
+      max-height: calc(100vh - 28px);
+      height: auto;
+      aspect-ratio: 1024 / 722;
+      display: block;
+      border: 1px solid #e0e4e8;
+    }
+    @media (max-width: 1024px) {
+      .certificate-img {
+        width: min(70.2vw, calc((100vh - 28px) * 1.41828));
+      }
+    }
+    @media (max-width: 768px) {
+      body {
+        padding-top: 10px;
+        padding-bottom: 16px;
+      }
+      .certificate-img {
+        width: 95vw;
+        max-height: calc(100vh - 20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="certificate-wrapper">
+    <img src="certificate.png" alt="NPTEL Online Certification - Himanshu Golya - Database Management System" class="certificate-img">
+  </div>
+</body>
+</html>
